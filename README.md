@@ -31,6 +31,7 @@ This project involves the end-to-end development of a Human Resources Management
 * **Job Overview:** Analyzes salary distributions and employee headcount by job level.
 
 ### 3. Web Interface
+* **Link:**https://hrsystemgiu.lovable.app/
 * A user-friendly web portal created to interact with the database, allowing HR managers to view dashboards and manage employee profiles.
 
 ## 🛠️ Tools Used
