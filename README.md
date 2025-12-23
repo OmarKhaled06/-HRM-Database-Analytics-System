@@ -12,7 +12,7 @@ This project involves the end-to-end development of a Human Resources Management
   * `Triggers.sql`: Database triggers for data validation and automation (e.g., `trg_validate_objective_weight`).
   * `scalar functions.sql`: Helper functions for calculations (e.g., `GetEmployeeAge`, `GetTotalCertificates`).
 * `Database_PowerBI_Dashboard`: The `.pbix` file for the HR Analytics Interactive Dashboard.
-* `ERD.draw.io: The Entity Relationship Diagram of the database schema.
+* `ERD.draw.io`: The Entity Relationship Diagram of the database schema.
 * `HRM-Database Analytics System`: PDF file contains screenshots of the web app portal and description of the project.
 
 ## 🚀 Features
