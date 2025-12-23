@@ -5,7 +5,12 @@ This project involves the end-to-end development of a Human Resources Management
 
 
 ## 📂 Repository Structure
-* `database/`: Contains all SQL scripts (Schema, Stored Procedures, Triggers, Views, and Functions).
+* **`database`**: Contains the SQL source code broken down by functionality:
+  * `schema_and_data.sql`: Defines the database tables (DDL) and includes initial dummy data (DML) for testing.
+  * `procedures.sql`: Stored procedures handling business logic (e.g., `AddNewEmployee`, `CalculateEmployeeWeightedScore`).
+  * `Views.sql`: Pre-built views used for reporting and Power BI (e.g., `vw_kpi_scores_summary`, `vw_gender_distribution`).
+  * `Triggers.sql`: Database triggers for data validation and automation (e.g., `trg_validate_objective_weight`).
+  * `scalar functions.sql`: Helper functions for calculations (e.g., `GetEmployeeAge`, `GetTotalCertificates`).
 * `Database_PowerBI_Dashboard`: The `.pbix` file for the HR Analytics Interactive Dashboard.
 * `ERD.draw.io: The Entity Relationship Diagram of the database schema.
 * `HRM-Database Analytics System`: PDF file contains screenshots of the web app portal and description of the project.
